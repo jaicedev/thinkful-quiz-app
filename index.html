@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -12,20 +14,18 @@
         <h2 class="page-sub-title">Quiz</h2>
     </div>
     <div class="container quiz-box">
+        <p class="current-question">Current Question:</p>
+        <p class="current-question">1 / 10</p>
         <form class="quiz">
             <p class="question">What is one basis point equivalent to in terms of pricing structure?</p>
-            <ul class="answer-selection">
-                <input type="radio" class="selector">
-                <li class="answer">1%</li>
-                <input type="radio" class="selector">
-                <li class="answer">0.1%</li>
-                <input type="radio" class="selector">
-                <li class="answer">0.01%</li>
-                <input type="radio" class="selector">
-                <li class="answer">0.001%</li>
+            <ul class="answer-selection container">
+                <li class="answer"><input type="radio" class="selector"> 1%</li>
+                <li class="answer"><input type="radio" class="selector"> 0.1%</li>
+                <li class="answer"><input type="radio" class="selector"> 0.01%</li>
+                <li class="answer"><input type="radio" class="selector"> 0.001%</li>
             </ul>
-            <button class="question-button" type="submit">Previous Question</button>
-            <button class="question-button" type="submit">Next Question</button>
+            <button class="question-button" type="submit"><i class="fas fa-arrow-left"></i></button>
+            <button class="question-button" type="submit"><i class="fas fa-arrow-right"></i></button>
         </form>
     </div>
 
