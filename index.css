@@ -111,3 +111,23 @@ h1, h2 {
     margin: 5%;
     color: rgb(230, 57, 66);
 }
+
+
+/* Temporary Wireframe Navigation Menu Styling */
+.wireframe-nav {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.nav-item {
+    padding: 5%;
+}
+.nav-link {
+    text-decoration: none;
+    color: gray;
+}
+.nav-link:hover {
+    color: black;
+}
